@@ -1,0 +1,424 @@
+<!doctype html>
+    <html>
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+				  <link href="http://keralas.info/keralasinfo.css" rel="stylesheet" type="text/css" media="screen"> 
+        <title>malappuram news</title>
+<meta name="description" content="this web page contains a selected collection of malappuram news മലപ്പുറം വാര്ത്ത from various online news portal " />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		    <script type="text/javascript">
+window.google_analytics_uacct = "UA-17412770-17";</script> 
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-17412770-17', 'auto');
+  ga('send', 'pageview');
+
+</script> 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+	 <script language="javascript">
+			function initcon()
+			{	
+				newwin();
+				setHeight();
+				document.fmhome.treg.value = "";
+				document.fmhome.treg.focus();
+			
+			}
+			
+			function setHeight()
+			{
+				if(screen.height == '600')
+				{
+					document.getElementById('headtd').height='100px';
+					document.getElementById('spantd').style.height='188px';
+					document.getElementById('tblmain').width='600px';
+				}
+				else
+				{
+					document.getElementById('headtd').height='104px';
+					document.getElementById('spantd').style.height='320px';
+					document.getElementById('tblmain').width='780px';
+				}
+			}
+			
+			function newwin()
+			{
+				if (self != top) 
+				top.location.href="sslc.htm";
+			}
+			
+			function IsNumeric(sText)
+			{
+				var ValidChars = "0123456789";
+				var IsNumber=true;
+				var Char;
+				
+				for (i = 0; i < sText.length && IsNumber == true; i++) 
+				{ 
+					Char = sText.charAt(i); 
+					if (ValidChars.indexOf(Char) == -1) 
+					{
+						IsNumber = false;
+					}
+				}
+				return IsNumber;
+			
+			}
+			
+			function checkform()
+			{
+				if(document.fmhome.treg.value == "")
+				{
+					alert("Enter Register number");
+					document.fmhome.treg.value = "";
+					document.fmhome.treg.focus();
+					return false;
+				}
+				if(document.fmhome.treg.value.length < 4)
+				{
+					alert("Enter valid Registration number");
+					document.fmhome.treg.value = "";
+					document.fmhome.treg.focus();
+					return false;
+				}
+				if(IsNumeric(document.fmhome.treg.value)==false)
+				{
+					alert("Please enter some valid Registration number");
+					document.fmhome.treg.value = "";
+					document.fmhome.treg.focus();
+					return false;
+			
+				}
+				//	if (!document.fmhome.rexam[0].checked && !document.fmhome.rexam[1].checked  && !document.fmhome.rexam[2].checked)
+				// 	{
+				// no radio button is selected
+				//	alert("Select Exam");
+				//	return false;
+				//	}
+			}
+			
+			function resetContents()
+			{
+				document.fmhome.treg.value = "";
+				document.getElementById("showres").innerHTML='';
+			}
+			
+			function NavigateAjax(regno)
+			{
+				if(checkform() != false)
+				{
+					document.getElementById("showres").innerHTML="<table width='100%' ><tr><td align='center'><img src='atom01.gif' style='border:0px'/></table></tr></td>";
+					xmlHttp=GetXmlHttpObject()
+					if (xmlHttp==null)
+					{
+						alert ("Browser does not support HTTP Request")
+						return
+					} 
+					var url="http://www.keralaresults.nic.in/sslc2xpre01su7/swr_sslcres.asp?treg="+regno;	
+					url=url+"&sid="+Math.random();
+					xmlHttp.onreadystatechange=stateChanged ;
+					xmlHttp.open("GET",url,true);
+					xmlHttp.send(null);
+				}
+				else
+				{
+					return false;
+				}
+			}
+			
+			
+			function stateChanged() 
+			{ 
+				if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete")
+				{ 
+					document.getElementById("showres").innerHTML="";
+					document.getElementById("showres").innerHTML=xmlHttp.responseText
+					document.getElementById("ctrltr").style.display='none';
+					document.getElementById("lnktd").style.display='';
+				} 
+			}  
+			
+			function enableCheckAnoRes()
+			{
+				document.getElementById("ctrltr").style.display='';
+				document.getElementById("lnktd").style.display='none';
+				document.getElementById("showres").innerHTML="";
+				document.fmhome.treg.value = "";
+				document.fmhome.treg.focus();
+			}
+			
+			function GetXmlHttpObject(handler)
+			{ 
+				var objXMLHttp=null
+				if (window.XMLHttpRequest)
+				{
+					objXMLHttp=new XMLHttpRequest()
+				}
+				else if (window.ActiveXObject)
+				{
+					objXMLHttp=new ActiveXObject("Microsoft.XMLHTTP")
+				}
+				return objXMLHttp
+			}
+        
+        </script>
+	 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+	</head>  
+	  
+      <body>
+<header><nav class="wrapper">
+<ul>
+       <li class="logo"><a href="http://keralas.info" target="_parent">Home</a></li>
+	     
+      <li class="logo"><a href="http://keralas.info/malappuram/" target="_blank">Malappuram news</a></li>
+      
+  
+         <li class="logo"><a href="http://keralas.info/malappuram/" target="_blank">More</a></li>
+      
+    </ul>
+</nav></header>
+        
+
+      <p>&nbsp;</p>
+     
+<h1>Malappuram news</h1>
+
+
+
+
+<img src="https://archive.org/download/malappuram_news_live/malappuram_news_live.jpg" alt=" മലപ്പുറം വാര്ത്ത  malappuram news live preparing news from malappuram school plot photos"> 
+
+<h2>Selected malappuram news </h2>
+
+<ul>
+  <li><font size="5"> </font></li>
+
+     <li> <font size="5">വാഗൺ കൂട്ടക്കൊലയുടെ ഓർമകളെ സംഘപരിവാർ ഭയക്കുമ്പോൾ  <iframe width="560" height="315" src="https://www.youtube.com/embed/OmZbP6fkDXA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</font><font size="5"> </font>22.11.2018 11:30 AM</li>
+   <li><a href="https://www.mathrubhumi.com/malappuram/features/child-marriage-1.3218979" target="_blank"><font size="5">കുട്ടികൾ പറയുന്നു; 18ന് മുമ്പ് കല്യാണം വേണ്ട.
+</font></a><font size="5"> </font>31.10.2018 07:00 PM</li>
+  <li><a href="http://www.sirajlive.com/2018/09/14/334790.html" target="_blank"><font size="5">മുഹറം ആശൂറാഅ് സമ്മേളനം വ്യാഴാഴ്ച സ്വലാത്ത് നഗറില്‍
+</font></a><font size="5"> </font>19.09.2018 10:00 PM</li>
+ <li><a href="http://www.thejasnews.com/വിടവാങ്ങിയത്-തലമുറകളുടെ.html/" target="_blank"><font size="5">വിടവാങ്ങിയത് തലമുറകളുടെ ഗുരുനാഥന്‍
+</font></a><font size="5"> </font>15.09.2018 03:00 PM</li>
+ <li><a href="https://www.doolnews.com/supreme-court-says-case-will-continue-against-pk-basheer.html" target="_blank"><font size="5">മുസ്‌ലിം ലീഗിന് തിരിച്ചടി; പി.കെ.ബഷീറിനെതിരായ കേസ് പിന്‍വലിച്ചത് സുപ്രീംകോടതി റദ്ദാക്കി
+</font></a><font size="5"> </font>13.09.2018 03:00 PM</li>
+   <li><a href="https://www.mathrubhumi.com/environment/specials/kerala-floods-2018/pralaya-naadu/sandeepani-writes-about-after-flood-experience-from-nilambur-1.3095095" target="_blank"><font size="5">പേമാരി തോര്‍ന്ന നിലമ്പൂര്‍ യുദ്ധം കഴിഞ്ഞ കുരുക്ഷേത്ര ഭൂമി പോലെ......
+</font></a><font size="5"> </font>29.08.2018 11:50 PM</li>
+    <li><a href="https://www.onam2018.info/" target="_blank"><font size="5">വിദ്യാഭ്യാസ സ്​ഥാപനങ്ങൾക്ക്​ 
+    നാളെ അവധി​; ഒാണ പരീക്ഷകൾ മാറ്റിവെച്ചു. </font></a> </li>
+  <li><a href="http://www.doolnews.com/nine-people-died-in-land-slide-at-malappuram-214.html" target="_blank"><font size="5">മലപ്പുറം 
+    പെരിങ്ങാവില്‍ വീടിനു മുകളില്‍ മണ്ണിടിഞ്ഞ് വീണ് ഒമ്പതു മരണം</font></a><font size="5"> 
+    </font>15.08.2018 10:02 PM</li>
+  <li><font size="5"><a href="http://www.doolnews.com/heavy-rain-in-kerala-schools-to-remain-closed258.html" target="_blank">മൂന്ന് 
+    ജില്ലകളിലെ എല്ലാ വിദ്യാഭ്യാസ സ്ഥാപനങ്ങള്‍ക്കും നാളെ അവധി; എറണാകുളം, കണ്ണൂര്‍, 
+    കോഴിക്കോട് ജില്ലകളില്‍ ഭാഗിക അവധി </a> </font> </li>
+  <li>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3UUNHq3QI_E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </li>
+  <li><a href="https://www.mathrubhumi.com/news/kerala/leave-for-all-educational-institutions-1.3046090" target="_blank"><font size="5"> 
+    വയനാട്, മലപ്പുറം,പാലക്കാട്, കോഴിക്കോട് ജില്ലകളിൽ അവധി; കണ്ണൂര്‍, ഇടുക്കി ജില്ലകളില്‍ 
+    ഭാഗിക അവധി</font></a></li>
+  <li><a href="https://www.manoramanews.com/news/kerala/2018/07/25/man-self-immolates-at-malappuram-and-deid.html" target="_blank"><font size="5">മലപ്പുറത്ത് 
+    യുവാവ് തീഗോളമായത് പ്രണയ നൈരാശ്യത്തിൽ; അരികിൽ റോസാപ്പൂ.. </font></a></li>
+  <li><a href="https://www.manoramanews.com/nattuvartha/north/2018/07/20/american-teachers-in-malappuram0.html" target="_blank"><font size="5"> 
+    അമേരിക്കൻ അധ്യാപികമാർ വിദ്യ പകർന്നുനൽകി, വിദ്യാർത്ഥിനികൾ രുചിപ്പെരുമയും</font></a></li>
+  <li><a href="http://malabarinews.com/news/malappuram-e-health/#" target="_blank"><font size="5">മലപ്പുറം 
+    ജില്ലയില്‍ ഇ ഹെല്‍ത്ത് പദ്ധതിക്കു തുടക്കമാവുന്നു </font></a></li>
+  <li><font size="5"> <a href="https://www.manoramaonline.com/news/latest-news/2018/07/16/heavy-rain-malappuram-drowned.html" target="_blank">കനത്ത 
+    മഴ: മലപ്പുറത്ത് ഒരാൾ മുങ്ങിമരിച്ചു... </a></font></li>
+  <li> <a href="https://www.madhyamam.com/kerala/local-news/malappuram/wild-elephant-killed-malappuram-nilambur-kerala-news/2018/jul/14/521365" target="_blank"><font size="5">മലപ്പുറത്ത് 
+    കാട്ടാന ആക്രമണത്തിൽ ഒരാൾ മരിച്ചു... </font></a> 
+  <li><font size="5"> <a href="https://www.manoramanews.com/nattuvartha/north/2018/07/13/muslim-league-protest-against-railway.html" target="_blank">മലപ്പുറം 
+    ജില്ലയോട് റയിൽവേ അവഗണന, പ്രക്ഷോഭവുമായി മുസ്ലീം ലീഗ് </a></font></li>
+  <li><font size="5"> <a href="https://www.madhyamam.com/kerala/police-raid-popular-front-presidents-home-kerala-news/2018/jul/13/520689" target="_blank">പോപ്പുലർ 
+    ഫ്രണ്ട്​ സംസ്​ഥാന പ്രസിഡൻറി​െൻറ വീട്ടിൽ പൊലീസ്​ റെയ്​ഡ്</a></font></li>
+  <li><a href="https://www.madhyamam.com/lifestyle/special-one/zee-tv-reality-show-contestant-yumna-ajin-sa-re-ga-ma-pa-lil-champs-2017-music" target="_blank"><font size="5"> 
+    ഇന്ത്യന്‍ ​ഐഡല്‍ ഫ്രം മലപ്പുറം. </font></a></li>
+  <li><a href="https://www.madhyamam.com/lifestyle/special-one/victory-kerala-beard-society-kbs-thrissur-lifestyle-news/2018/jul/06/515913" target="_blank"><font size="5"> 
+    താടി'ത്തണലിലെ സ്നേഹ സ്പർശം</font></a></li>
+  <li><a href="http://www.mathrubhumi.com/malappuram/news/tanur-1.2961018" target="_blank"><font size="5">പരിസ്ഥിതിസ്നേഹം 
+    കല്യാണക്കുറിയിലും മകളുടെ കല്യാണത്തിന് പരിസ്ഥിതിസൗഹൃദ കല്യാണക്കുറിയുമായി വി. 
+    അബ്ദുറഹിമാൻ എം.എൽ.എ </font></a><font size="5"> </font></li>
+  <li><a href="http://www.doolnews.com/abhimanus-grunge-popular-vice-president-of-popular-front-arrested.html" target="_blank"><font size="5"> 
+    അഭിമന്യു വധം; പോപ്പുലര്‍ ഫ്രണ്ട് സംസ്ഥാന വൈസ് പ്രസിഡന്റിനെ അറസ്റ്റ് ചെയ്തു 
+    </font></a></li>
+  <li><font size="5"> </font></li>
+  <li><font size="5"> </font></li>
+</ul>
+
+	<h2>Malappuram news from Major Malayalam newspapers website</h2>
+<ul>
+  <li><a href="https://localnews.manoramaonline.com/malappuram.html" target="_blank"><font size="5">Malayala 
+    Manorama Malappuram news</font></a></li>
+  <li><font size="5"><a href="http://www.mathrubhumi.com/malappuram" target="_blank">Mathrubhumi 
+    Malappuram news</a></font></li>
+  <li><a href="http://www.deshabhimani.com/news/kerala/malappuram" target="_blank"><font size="5">Deshabhimani Malappuram news</font></a></li>
+ 
+  <li><a href="https://www.madhyamam.com/kerala/local-news/malappuram" target="_blank"><font size="5">Madhyamam Malappuram news</font></a></li>
+    <li><a href="http://www.thejasnews.com/category/malappuram/" target="_blank"><font size="5"> Thejas Malappuram news</font></a></li>
+    <li><a href="http://www.chandrikadaily.com/" target="_blank"><font size="5"> Chandrika Malappuram news</font></a></li>
+	  <li><a href="http://malabarinews.com/news_sections/localnew/" target="_blank"><font size="5"> Malabarinews.com Malappuram news</font></a></li>
+	  <li><a href="http://www.malappuramlife.com" target="_blank"><font size="5"> 
+    malappuramlife.com</font></a></li>
+ <li><a href="http://www.sirajlive.com/category/malappuram" target="_blank"><font size="5"> 
+    Malappuram Siraj news</font></a></li>
+	<li><a href="http://malappuramnews.com" target="_blank"><font size="5"> 
+    Malappuramnews.com</font></a></li>
+	
+</ul>
+<h2>Malappuram news from radio stations</h2>
+
+<ul>
+  <li><font size="4"> <a href="https://www.radiomango.fm/shows.html" target="_blank">Radio 
+    Mango 91.9 (Malayala Manorama Group) Malappuram news</a></font></li>
+
+  <li><a href="http://allindiaradio.gov.in/Default.aspx" target="_blank"><font size="4"> 
+    Akashvani 102.3 (All India Radio) Malappuram news</font></a></li>
+  <li><font size="4"> <a href="https://soundcloud.com/stations/artist/rainbow-kochi-107-5" target="_blank">Akashvani 
+    Rainbow 107.5 (All India Radio) Malappuram news</a></font></li>
+</ul>
+
+
+<p> Major Malayalam newspapers published in Malappuram include Malayala Manorama, Mathrubhumi, Madhyamam, Deshabhimani,
+ Deepika, Kerala Kaumudi, Thejus, Metro Vartha, Siraj, Varthamanam, Janayugam, Kochi Vartha and Veekshanam, Janmabhoomi, .
+
+Popular English newspapers include Deccan Chronicle, The Times Of India, The Hindu, and The New Indian Express.
+A number of evening papers are also published from the city.
+
+Newspapers in other regional languages like Hindi, Kannada, Tamil and Telugu are also sold in large numbers.
+
+Being the seat of the Cochin Stock Exchange, a number of financial publications are also published in the city.
+ These include The Economic Times, Business Line, The Business Standard and The Financial Express.
+
+Prominent magazines and religious publications like the Sathyadeepam and The Week are also published </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+	
+ 
+
+
+
+
+
+
+	
+</div>
+	
+	
+
+
+  
+
+	
+
+
+
+
+
+
+
+
+
+
+
+<p> 
+		  <!-- googleplus sharincode start -->
+  <div class="g-plusone" data-annotation="inline" data-width="300"></div>
+    <!-- Place this tag after the last +1 button tag. -->
+    <script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<!-- googleplus sharingcode end -->
+    <!-- twitter sharincode start -->
+    <a href="https://twitter.com/share" class="twitter-share-button" data-size="large">Tweet</a> 
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	
+If you feel this website is useful for you, please don't forget to inform others 
+so now you can like and share Facebook or Googleplus and twitter
+<!-- Place this tag in your head or just before your close body tag. -->
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+<!-- Place this tag where you want the widget to render. -->
+<div class="g-page" data-href="https://plus.google.com/b/112539169038967720169/" data-theme="dark" data-layout="landscape" data-rel="publisher"></div>
+
+<!-- Facebook Badge START --> 
+		<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+		
+<div class="fb-page" 
+  data-href="https://www.facebook.com/malappuramnewslive/"
+  data-width="380" 
+  data-hide-cover="false"
+  data-show-facepile="false"></div>
+		<!-- Facebook Badge END -->
+
+  </p>
+		  
+		
+		  
+		  
+		
+          </body>
+    </html>
