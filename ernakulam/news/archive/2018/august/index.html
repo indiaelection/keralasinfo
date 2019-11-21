@@ -1,0 +1,529 @@
+<!doctype html>
+    <html>
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+				  <link href="http://keralas.info/keralasinfo.css" rel="stylesheet" type="text/css" media="screen"> 
+        <title>ernakulam news</title>
+<meta name="description" content="this web page contains a selected collection of ernakulam news എറണാകുളം വാര്ത്ത from various online news portal " />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		    <script type="text/javascript">
+window.google_analytics_uacct = "UA-17412770-17";</script> 
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-17412770-17', 'auto');
+  ga('send', 'pageview');
+
+</script> 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+	 <script language="javascript">
+			function initcon()
+			{	
+				newwin();
+				setHeight();
+				document.fmhome.treg.value = "";
+				document.fmhome.treg.focus();
+			
+			}
+			
+			function setHeight()
+			{
+				if(screen.height == '600')
+				{
+					document.getElementById('headtd').height='100px';
+					document.getElementById('spantd').style.height='188px';
+					document.getElementById('tblmain').width='600px';
+				}
+				else
+				{
+					document.getElementById('headtd').height='104px';
+					document.getElementById('spantd').style.height='320px';
+					document.getElementById('tblmain').width='780px';
+				}
+			}
+			
+			function newwin()
+			{
+				if (self != top) 
+				top.location.href="sslc.htm";
+			}
+			
+			function IsNumeric(sText)
+			{
+				var ValidChars = "0123456789";
+				var IsNumber=true;
+				var Char;
+				
+				for (i = 0; i < sText.length && IsNumber == true; i++) 
+				{ 
+					Char = sText.charAt(i); 
+					if (ValidChars.indexOf(Char) == -1) 
+					{
+						IsNumber = false;
+					}
+				}
+				return IsNumber;
+			
+			}
+			
+			function checkform()
+			{
+				if(document.fmhome.treg.value == "")
+				{
+					alert("Enter Register number");
+					document.fmhome.treg.value = "";
+					document.fmhome.treg.focus();
+					return false;
+				}
+				if(document.fmhome.treg.value.length < 4)
+				{
+					alert("Enter valid Registration number");
+					document.fmhome.treg.value = "";
+					document.fmhome.treg.focus();
+					return false;
+				}
+				if(IsNumeric(document.fmhome.treg.value)==false)
+				{
+					alert("Please enter some valid Registration number");
+					document.fmhome.treg.value = "";
+					document.fmhome.treg.focus();
+					return false;
+			
+				}
+				//	if (!document.fmhome.rexam[0].checked && !document.fmhome.rexam[1].checked  && !document.fmhome.rexam[2].checked)
+				// 	{
+				// no radio button is selected
+				//	alert("Select Exam");
+				//	return false;
+				//	}
+			}
+			
+			function resetContents()
+			{
+				document.fmhome.treg.value = "";
+				document.getElementById("showres").innerHTML='';
+			}
+			
+			function NavigateAjax(regno)
+			{
+				if(checkform() != false)
+				{
+					document.getElementById("showres").innerHTML="<table width='100%' ><tr><td align='center'><img src='atom01.gif' style='border:0px'/></table></tr></td>";
+					xmlHttp=GetXmlHttpObject()
+					if (xmlHttp==null)
+					{
+						alert ("Browser does not support HTTP Request")
+						return
+					} 
+					var url="http://www.keralaresults.nic.in/sslc2xpre01su7/swr_sslcres.asp?treg="+regno;	
+					url=url+"&sid="+Math.random();
+					xmlHttp.onreadystatechange=stateChanged ;
+					xmlHttp.open("GET",url,true);
+					xmlHttp.send(null);
+				}
+				else
+				{
+					return false;
+				}
+			}
+			
+			
+			function stateChanged() 
+			{ 
+				if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete")
+				{ 
+					document.getElementById("showres").innerHTML="";
+					document.getElementById("showres").innerHTML=xmlHttp.responseText
+					document.getElementById("ctrltr").style.display='none';
+					document.getElementById("lnktd").style.display='';
+				} 
+			}  
+			
+			function enableCheckAnoRes()
+			{
+				document.getElementById("ctrltr").style.display='';
+				document.getElementById("lnktd").style.display='none';
+				document.getElementById("showres").innerHTML="";
+				document.fmhome.treg.value = "";
+				document.fmhome.treg.focus();
+			}
+			
+			function GetXmlHttpObject(handler)
+			{ 
+				var objXMLHttp=null
+				if (window.XMLHttpRequest)
+				{
+					objXMLHttp=new XMLHttpRequest()
+				}
+				else if (window.ActiveXObject)
+				{
+					objXMLHttp=new ActiveXObject("Microsoft.XMLHTTP")
+				}
+				return objXMLHttp
+			}
+        
+        </script>
+	 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+	</head>  
+	  
+      <body>
+<header><nav class="wrapper">
+<ul>
+       <li class="logo"><a href="http://keralas.info" target="_parent">Home</a></li>
+	     
+      <li class="logo"><a href="http://keralas.info/ernakulam/" target="_blank">Ernakulam news</a></li>
+       <li class="logo"><a href="http://keralas.info/ernakulam/news/archive/" target="_blank">News archive</a></li>
+  
+         <li class="logo"><a href="http://keralas.info/ernakulam/" target="_blank">More</a></li>
+      
+    </ul>
+</nav></header>
+        
+
+      <p>&nbsp;</p>
+     <h1>Ernakulam news</h1>
+
+
+
+
+<img src="http://keralas.info/ernakulam/news/ernakulam_news.jpg" alt=" എറണാകുളം വാര്ത്ത  Ernakulam news preparing news from Marine drive photos"> 
+
+
+<h2>Ernakulam news from Major Malayalam newspapers website</h2>
+<ul>
+  <li><a href="https://localnews.manoramaonline.com/ernakulam.html" target="_blank"><font size="5">Malayala 
+    Manorama Ernakulam news</font></a></li>
+  <li><font size="5"><a href="http://www.mathrubhumi.com/ernakulam" target="_blank">Mathrubhumi 
+    Ernakulam news</a></font></li>
+  <li><a href="http://www.deshabhimani.com/news/kerala/ernakulam" target="_blank"><font size="5">Deshabhimani Ernakulam news</font></a></li>
+ 
+  <li><a href="https://www.madhyamam.com/kerala/local-news/kochi" target="_blank"><font size="5">Madhyamam Ernakulam news</font></a></li>
+    <li><a href="http://ernakulam.metromalayali.in" target="_blank"><font size="5"> Metromalayali Ernakulam news</font></a></li>
+	 <li><a href="http://www.thejasnews.com/category/ernakulam/" target="_blank"><font size="5"> Thejas Ernakulam news</font></a></li>
+  <li><font size="5"><a href="https://timesofindia.indiatimes.com/city/kochi" target="_blank">The Times Of India Ernakulam news</a></font></li>
+  <li><a href="http://www.mangalam.com/news/district/2-ernakulam-India.html" target="_blank"><font size="5"> 
+    Mangalam Ernakulam news</font></a></li>
+	<li><a href="http://keralanews.gov.in/index.php/erk" target="_blank"><font size="5"> 
+    Ernakulam Government news</font></a></li>
+	<li><a href="http://cochinvoice.in" target="_blank"><font size="5"> 
+    Cochinvoice news</font></a></li>
+</ul>
+<h2>Ernakulam news from radio stations</h2>
+
+<ul>
+  <li><font size="4"> <a href="https://www.radiomango.fm/shows.html" target="_blank">Radio Mango 
+    91.9 (Malayala Manorama Group) Ernakulam news</a></font></li>
+  <li><a href="https://www.redfmindia.in/cochin" target="_blank"><font size="4"> Red FM 93.5 (Sun 
+    Network) Ernakulam news</font></a></li>
+  <li><font size="4"> <a href="http://clubfm.in" target="_blank">Club FM 94.3 (Mathrubhumi) Ernakulam 
+    news</a></font></li>
+  <li><font size="4"> <a href="http://www.radiomirchi.com/kochi" target="_blank">Radio Mirchi 104.0 
+    (Times Group) Ernakulam news</a></font></li>
+  <li><a href="http://allindiaradio.gov.in/Default.aspx" target="_blank"><font size="4"> Akashvani 
+    102.3 (All India Radio) Ernakulam news</font></a></li>
+  <li><font size="4"> <a href="https://soundcloud.com/stations/artist/rainbow-kochi-107-5" target="_blank">Akashvani 
+    Rainbow 107.5 (All India Radio) Ernakulam news</a></font></li>
+
+</ul>
+
+
+
+
+
+
+
+<h2>Selected Ernakulam news </h2>
+<!--   കേരളത്തിലെ ആദ്യത്തെ കെ എസ് ആർ ടി സി ഇലക്ട്രിക് ബസ്സിൽ ഒരു യാത്ര <iframe width="560" height="315" src="https://www.youtube.com/embed/CDxIbLPCbQ4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>                -->
+<ul>
+  <li><font size="5"> </font> </li>
+    
+ 
+   
+  <li><font size="5"><a href="https://www.mathrubhumi.com/print-edition/kerala/kochi-1.3087670" target="_blank">പെരുന്നാളുമില്ല, 
+    ഓണവുമില്ല; വിശ്രമമില്ലാത്ത സേവനവുമായി പോലീസ്...</a> </font> 28.08.2018 05:45 
+    PM</li> 
+  <li><a href="http://www.doolnews.com/kerala-flood-nedumbassery-airport-closed555.html" target="_blank"><font size="5"> 
+    കൊച്ചി വിമാനത്താവളത്തില്‍ വെള്ളം കയറി; ഈ മാസം 26വരെ അടച്ചിടാന്‍ തീരുമാനം</font> 
+    </a></li>
+    
+  <li><a href="https://www.onam2018.info/" target="_blank"><font size="5">വിദ്യാഭ്യാസ സ്​ഥാപനങ്ങൾക്ക്​ 
+    നാളെ അവധി​; ഒാണ പരീക്ഷകൾ മാറ്റിവെച്ചു. </font></a> </li>
+  <li><font size="5"><a href="https://malayalam.oneindia.com/onam/athachamayam-marks-the-beginning-of-the-ten-day-onam-festival/articlecontent-pf256637-207587.html" target="_blank">ഓണത്തിന്റെ 
+    വരവറിയിച്ച് തൃപ്പൂണിത്തുറ അത്തച്ചമയം നാളെ... എന്താണ് അത്തച്ചമയം? </a> </font> 14.08.2018 
+    11:45 PM</li>
+  <li><a href="http://www.deshabhimani.com/news/kerala/news-ernakulamkerala-14-08-2018/744407" target="_blank"><font size="5">രാജേന്ദ്രമൈതാനത്ത‌് 
+    ലേസര്‍ഷോ ഇന്ന‌ുമുതൽ </font></a><font size="5"> </font> 
+    <!-- #BeginDate format:Ge1a -->28.08.2018 10:13 PM<!-- #EndDate -->
+  </li>
+  <li><a href="https://www.doolnews.com/rima-parvathy-poornima-ramya-nambeesan-on-flood-relief-camp-with-anpodu-kochi978.html" target="_blank"><font size="5">ദുരിതാശ്വാസപ്രവര്‍ത്തനങ്ങളില്‍ 
+    നേരിട്ട് പങ്കാളികളായി റിമയും പാര്‍വതിയും രമ്യയും പൂര്‍ണ്ണിമയും. വീഡിയോ </font></a><font size="5"> 
+    </font> </li>
+  <li><a href="https://www.madhyamam.com/kerala/rajnath-singh-kochi-kerala-news/2018/aug/12/539754" target="_blank"><font size="5">പ്രളയക്കെടുതി 
+    വിലയിരുത്താൻ രാജ്​നാഥ്​ സിങ്​ കൊച്ചിയിൽ... </font></a><font size="5"> </font> 
+  </li>
+  <li><a href="https://malayalam.oneindia.com/news/kerala/lady-doctor-murder-son-arrested-kochi-207354.html" target="_blank"><font size="5">കൊച്ചിയിലെ 
+    ഡോക്ടര്‍ അമ്മയുടെ മരണം കൊലപാതകം; പിന്നില്‍ മകനെന്ന് പോലീസ്! </font></a><font size="5"> 
+    </font> </li>
+  <li><font size="5"> 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/W9mPr2DdLUQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    ഇടുക്കി ചെറുതോണി ഡാമിന്റെ 5 ഷട്ടറുകളും തുറന്നപ്പോൾ </font> </li>
+  <li><a href="https://malayalam.oneindia.com/news/kerala/pumbing-stopped-at-cochin-corporation-207252.html" target="_blank"><font size="5">മഴ 
+    കനത്തു... കൊച്ചി കോര്‍പ്പറേഷന്‍ സ്തംഭിക്കും, പമ്പിങ് നിര്‍ത്തി, പമ്പ് ഹൗസും 
+    പ്രവര്‍ത്തിക്കില്ല!! </font></a><font size="5"> </font> </li>
+  <li><font size="5"><a href="http://www.doolnews.com/heavy-rain-in-kerala-schools-to-remain-closed258.html" target="_blank">മൂന്ന് 
+    ജില്ലകളിലെ എല്ലാ വിദ്യാഭ്യാസ സ്ഥാപനങ്ങള്‍ക്കും നാളെ അവധി; എറണാകുളം, കണ്ണൂര്‍, 
+    കോഴിക്കോട് ജില്ലകളില്‍ ഭാഗിക അവധി </a> </font> </li>
+  <li> 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3UUNHq3QI_E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </li>
+  <li><a href="https://www.manoramanews.com/news/kerala/2018/08/08/kochi-vathuruthi-natives-sad-in-karunanidhi-demise.html" target="_blank"><font size="5">കലൈജ്ഞര്‍ 
+    കരുണാനിധിക്ക് ആദരാഞ്ജലിയര്‍പ്പിച്ച് കൊച്ചി വാതുരുത്തിയിലെ തമിഴ്മക്കൾ.. </font></a><font size="5"> 
+    </font> </li>
+  <li><a href="https://localnews.manoramaonline.com/ernakulam/local-news/2018/08/05/06082018-article-08.html"><font size="5">രാഷ്ട്രപതി 
+    റാംനാഥ് കോവിന്ദ് ഇന്ന് കൊച്ചിയിലെത്തും... </font></a><font size="5"> </font> 
+  </li>
+  <li><font size="5"><a href="https://localnews.manoramaonline.com/ernakulam/local-news/2018/08/04/rtv-chn-demuwelcom.html" target="_blank">ഐലൻഡിലേക്ക് 
+    രണ്ടു വീതം ‍ഡെമു സർവീസിനു സാധ്യത... </a> </font> </li>
+  <li><a href="http://www.deshabhimani.com/news/kerala/news-kerala-04-08-2018/742109" target="_blank"><font size="5">മൺസൂൺ 
+    മാരത്തൺ: അയൽക്കൂട്ടങ്ങളിൽ ദീപം തെളിച്ചു </font></a><font size="5"> </font> 
+  </li>
+  <li><a href="https://www.manoramanews.com/news/spotlight/2018/08/04/tracking-application-in-mobile-phone-leak-couples-private-moments.html" target="_blank"><font size="5">കൊച്ചിയിൽ 
+    യുവാവിന്‍റെ ജീവിതം തകര്‍ത്ത 'മൊബൈല്‍ ആപ്പി'ന്‍റെ കഥ.. </font></a><font size="5"> 
+    </font> </li>
+  <li><font size="5"><a href="http://www.mangalam.com/news/detail/238232-mangalam-special-umbai-story.html" target="_blank">ചുമട്ടുജോലി 
+    മുതല്‍ കള്ളക്കടത്ത് വരെ, വിഷാദാത്മക ഗസല്‍ പോലെ ഒരു ജീവിതയാത്ര </a> </font> 
+  </li>
+  <li><font size="5"><a href="http://www.deshabhimani.com/news/kerala/news-kerala-02-08-2018/741451" target="_blank">മഹാരാജാസിലേക്ക് 
+    മെല്‍ബിന്‍ വീണ്ടുമെത്തുന്നു; തിരിച്ചുവരുന്നത് ദയാ ഗായത്രിയായി</a> </font> 
+  </li>
+  <li><a href="https://www.livenewage.com/2018/07/30/pukkattupady-vallathol-library-is-a-new-model-for-kerala" target="_blank"><font size="5">കേരളത്തിന് 
+    മുഴുവൻ മാതൃകയായി എറണാകുളം ജില്ലയിലെ ഈ ഗ്രാമീണ ലൈബ്രറി</font></a><font size="5"> 
+    </font> </li>
+  <li><font size="5"><a href="https://www.asianetnews.com/web-exclusive/athulya-sharma-s-home-kochi-pco1ei" target="_blank">അതുല്യാ 
+    ശർമ്മയുടെ കൊച്ചി, വടുതലയിലെ അപ്പാർട്ട്മെന്‍റ് ആകാശത്തെ ഒരു ഹരിതഗൃഹമാണ് </a></font> 
+  </li>
+  <li><a href="https://localnews.manoramaonline.com/ernakulam/features/2018/07/24/25-07-2018-articel-m-01.html" target="_blank"><font size="5">ഒരു 
+    തീപ്പൊരി; എല്ലാം കഴിഞ്ഞു’ - നീർക്കണ്ണുകളോടെ പലരും പറയുന്നത്. </font></a><font size="5"> 
+    </font> </li>
+  <li><a href="https://www.mathrubhumi.com/news/kerala/my-life-is-dedicated-to-homeless-children-1.3002425?pq=1.2699052" target="_blank"><font size="5">'വീടില്ലാത്ത 
+    കുട്ടികള്‍ക്കുവേണ്ടിയാണ് എന്റെ ജീവിതം'; ഹനാന്‍ മനസുതുറക്കുന്നു..... </font></a><font size="5"> 
+    </font> </li>
+  <li><a href="http://cochinvoice.in/2018/07/20/nehru-trophy-vallam-kali-tickes-available-kochi/" target="_blank"><font size="5">നെഹ്‌റു 
+    ട്രോഫി വള്ളംകളി ടിക്കറ്റ് വേണോ?നുമ്മടെ കൊച്ചിയിൽ കിട്ടും </font></a><font size="5"> 
+    </font> </li>
+  <li><a href="http://www.deshabhimani.com/news/kerala/news-ernakulamkerala-25-07-2018/739403" target="_blank"><font size="5">വീടിനുള്ളിൽ 
+    പൂട്ടിയിട്ടിരുന്ന 3 കുട്ടികളെ മോചിപ്പിച്ചു </font></a><font size="5"> </font> 
+  </li>
+  <li><font size="5"><a href="http://www.kairalinewsonline.com/2018/07/24/191219.html" target="_blank">വിശ്വാസത്തിന്‍റെ 
+    പേരില്‍ കുട്ടികള്‍ 10 വര്‍ഷം വീട്ടുതടങ്കലില്‍; മോചിപ്പിക്കാന്‍ ശ്രമം തുടരുന്നു 
+    </a> </font> </li>
+  <li><a href="http://www.mathrubhumi.com/news/kerala/tamilnadu-kerala-police-1.2995736" target="_blank"><font size="5">തമിഴ്‌നാട്ടിലെ 
+    കൊള്ളപ്പലിശ സംഘത്തലവനെ കേരളാ പോലീസ് പൊക്കി;ഗുണ്ടാസംഘം ഏറ്റുമുട്ടലിലൂടെ മോചിപ്പിച്ചു</font></a><font size="5"> 
+    </font> </li>
+  <li><font size="5"><a href="http://keralas.info/ernakulam/news/abhimanyu_vadham.html" target="_blank">അഭിമന്യു 
+    വധം; മുഖ്യപ്രതിയായ മുഹമ്മദലി പൊലീസ് പിടിയില്‍; മറ്റു പ്രതികളെ വിളിച്ച് വരുത്തിയത് 
+    മുഹമ്മദലി </a> </font> </li>
+  <li><a href="https://www.manoramanews.com/news/breaking-news/2018/07/18/heavy-rain-continou-ten-train-cancelled.html" target="_blank"><font size="5">കലിതുള്ളി 
+    മഴ: പത്തു ട്രെയിനുകൾ റദ്ദാക്കി, കൊച്ചിയിൽ ശക്തമായ കാറ്റ് </font></a><font size="5"> 
+    </font> </li>
+  <li><font size="5"><a href="http://www.doolnews.com/sdpi-withdrawn-state-wide-harthal546.html" target="_blank">എസ്.ഡി.പി.ഐ 
+    ഹര്‍ത്താല്‍ പിന്‍വലിച്ചു</a> </font> </li>
+  <li><a href="http://www.mathrubhumi.com/ernakulam/news/world-cup-big-screen-lulu-mall-kochu-mathrubhumi-katta-fan-1.2971815" target="_blank"><font size="5">ഫൈനൽ 
+    കാണാം, ലുലുമാളിൽ ബിഗ് സ്‌ക്രീനിൽ </font></a><font size="5"> </font> </li>
+  <li><font size="5"><a href="http://keralas.info/ernakulam/news/abhimanyu_vadham.html " target="_blank">കുത്തേറ്റ് 
+    ഗുരുതരാവസ്ഥയിലായിരുന്ന അർജുൻ ആശുപത്രി വിട്ടു </a> </font> </li>
+  <li><a href="http://keralas.info/ernakulam/news/abhimanyu_vadham.html" target="_blank"><font size="5">പൊലീസിന് 
+    എസ്ഡിപിഐ പ്രവർത്തകരെ ഭയമാണോ?; രൂക്ഷ വിമർശനവുമായി സൈമൺ ബ്രിട്ടോ </font></a><font size="5"> 
+    </font> </li>
+  <li><a href="http://www.thejasnews.com/????-??????-??????-?????.html/" target="_blank"><font size="5">നാളെ 
+    മുതല്‍ യൂബര്‍ ഓഫിസിനു മുന്‍പില്‍ കുടില്‍കെട്ടി സമരം: സംയുക്തസമരസമിതി </font></a><font size="5"> 
+    </font> </li>
+  <li><a href="https://www.madhyamam.com/lifestyle/special-one/gpc-cycles-owner-and-cycle-modelist-venu-fort-kochi-lifestyle-news/2017/oct/08"><font size="5">വേണുവിന്‍റെ 
+    വി​​സ്മ​​യ​​ങ്ങ​​ള്‍ </font></a><font size="5"> </font> </li>
+  <li><font size="5"><a href="http://www.samakalikamalayalam.com/malayalam-vaarika/essays/2018/may/18/???-?????????????????-??????????-23157.html" target="_blank">ഒരു 
+    ജില്ലാപ്പിറവിയുടെ അരുണസ്മൃതി </a> </font> </li>
+  <li><a href="http://keralaonlinenews.com/Kerala/kochi-boy-predict-names-world-cup-winners-53589.html" target="_blank"><font size="5">ലോകകപ്പ് 
+    ജേതാക്കളെ മുൻകൂട്ടി പ്രവചിച്ച് എറണാകുളം സ്വദേശി ഇരുപത്തൊന്ന്കാരന്റെ പ്രവചനം 
+    </font></a><font size="5"> </font> </li>
+  <li><font size="5"><a href="https://www.manoramaonline.com/news/latest-news/2018/07/12/kochi-metro-dormitory.html" target="_blank">200 
+    കിടക്കകൾ, 40 ശുചിമുറികൾ: ഇന്ത്യയിലെ ആദ്യത്തെ മെട്രോ റെയിൽ ഡോർമെട്രി കൊച്ചിയിൽ 
+    </a> </font> </li>
+  <li><font size="5"><a href="http://keralas.info/ernakulam/news/abhimanyu_vadham.html" target="_blank">അഭിമന്യുവിന്റെ 
+    കുടുംബത്തിന് കൈത്താങ്ങാകാൻ സജ്നയുടെ വിവാഹമോതിരം </a> </font> </li>
+  <li><a href="http://www.deshabhimani.com/news/kerala/kochi-water-project/735751" target="_blank"><font size="5">നഗരസഭയുടെ 
+    അനാസ്ഥ: കൊച്ചിവാട്ടർ പദ്ധതി അവതാളത്തിൽ </font></a><font size="5"> </font> 
+  </li>
+  <li><a href="http://keralas.info/ernakulam/news/abhimanyu_vadham.html" target="_blank"><font size="5"> 
+    അഭിമന്യുവിന്റെ കുടുംബത്തെ ഏറ്റെടുക്കുമെന്ന് സിപിഎം; തീരുമാനം </font></a> </li>
+  <li><a href="http://madhyapradesh.elections2018.info" target="_blank"><font size="5">KSRTC 
+    ഇലക്ട്രിക്ക് ബസ് എറണാകുളം വന്നപ്പോൾ ഒരു യാത്ര</font></a></li>
+  <li><a href="http://keralas.info/ernakulam/news/abhimanyu_vadham.html" target="_blank"><font size="5">മഹാരാജാസിൽ 
+    എസ്‌എഫ്‌ഐ നേതാവിനെ ക്യാന്പസ് ഫ്രണ്ടുകാർ കുത്തിക്കൊന്നു</font></a></li>
+  <li><a href="http://www.doolnews.com/amma-general-meeting-wcc-and-prithiviraj-fahad-not-attend-the-meeting452.html" target="_blank"><font size="5">അമ്മയുടെ 
+    ജനറല്‍ ബോഡി മീറ്റിംഗ്; വിമന്‍ കളക്ടീവ് വിട്ട് നിന്നു; പൃഥ്വിയും ഫഹദും എത്തിയില്ല</font></a></li>
+  <li><a href="http://www.kairalinewsonline.com/2018/06/23/185609.html" target="_blank"><font size="5">ഇലക്ട്രിക്‌ 
+    ബസ്‌ കൊച്ചിയിലെത്തി; ആവേശ സ്വീകരണമൊരുക്കി നാട്ടുകാര്‍</font></a></li>
+  <li><a href="http://www.mathrubhumi.com/movies-music/news/dharmajan-bolgatty-turn-to-business-dharmoos-fish-hub-kochi-will-be-inaugurated-by-kunchako-boban-1.2911671" target="_blank"><font size="5">ധര്‍മജന്‍ 
+    മീന്‍കച്ചവടത്തിന്; ഉദ്ഘാടനം കുഞ്ചാക്കോ ബോബന്‍</font></a></li>
+  <li><a href="http://www.mathrubhumi.com/print-edition/kerala/kochi-1.2909174" target="_blank"><font size="5">ശ്രീനിവാസന്റെ 
+    വരവിൽ കോൺഗ്രസിലെ ഗ്രൂപ്പ് മാനേജർമാർ ഞെട്ടി</font></a></li>
+  <li><a href="http://www.doolnews.com/mohanlal-take-charge-amma-president452.html" target="_blank"><font size="5">അമ്മയുടെ 
+    പ്രസിഡന്റായി മോഹന്‍ലാല്‍ ഇന്ന് സ്ഥാനമേല്‍ക്കും; നിര്‍ണായക ജനറല്‍ ബോഡി യോഗം 
+    ഇന്ന് കൊച്ചിയില്‍’</font></a></li>
+  <li><font size="5"><a href="https://www.madhyamam.com/kerala/heavy-rain-schools-eranakulam-district-will-not-work-friday/2018/jun/21/507686" target="_blank">കനത്ത 
+    മഴ: എറണാകുളം ജില്ലയിലെ സ്​കൂളുകൾക്ക്​ വെള്ളിയാഴ്​ച അവധി</a></font></li>
+  <li><font size="5"><a href="http://www.mathrubhumi.com/mymetro/updates/kochi-metro-free-of-cost-journey-85-000-travellers-in-a-day-1.2900050" target="_blank">കൊച്ചി 
+    മെട്രോയില്‍ ചൊവ്വാഴ്ച ഒരു ലക്ഷം യാത്രക്കാര്‍</a></font></li>
+  <li><font size="5"><a href="http://www.kairalinewsonline.com/2018/06/12/183507.html" target="_blank">സൗജന്യ 
+    യാത്ര വാഗ്ദാനം ചെയ്ത് കൊച്ചി മെട്രോ</a></font></li>
+  <li><a href="https://localnews.manoramaonline.com/ernakulam/features/2018/06/08/08062018-article-m01.html" target="_blank"><font size="5">കൊച്ചിയുടെ 
+    മനസ്സ് ഇനി ‘റഷ്യയിൽ’</font></a></li>
+  <li><a href="http://www.mathrubhumi.com/agriculture/news/vegetable-market--1.2885856" target="_blank"><font size="5">എറണാകുളം 
+    പച്ചക്കറിച്ചന്തയില്‍ സബ്ജഡ്ജിയുടെ മിന്നല്‍ പരിശോധന </font></a><font size="5"> 
+    </font> </li>
+</ul>
+
+	
+
+
+<p> Major Malayalam newspapers published in Ernakulam include Malayala Manorama, Mathrubhumi, Madhyamam, Deshabhimani,
+ Deepika, Kerala Kaumudi, Thejus, Metro Vartha, Siraj, Varthamanam, Janayugam, Kochi Vartha and Veekshanam, Janmabhoomi, .
+
+Popular English newspapers include Deccan Chronicle, The Times Of India, The Hindu, and The New Indian Express.
+A number of evening papers are also published from the city.
+
+Newspapers in other regional languages like Hindi, Kannada, Tamil and Telugu are also sold in large numbers.
+
+Being the seat of the Cochin Stock Exchange, a number of financial publications are also published in the city.
+ These include The Economic Times, Business Line, The Business Standard and The Financial Express.
+
+Prominent magazines and religious publications like the Sathyadeepam and The Week are also published </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+	
+ 
+
+
+
+
+
+
+	
+</div>
+	
+	
+
+
+  
+
+	
+
+
+
+
+
+
+
+
+
+
+
+<p> 
+		  <!-- googleplus sharincode start -->
+  <div class="g-plusone" data-annotation="inline" data-width="300"></div>
+    <!-- Place this tag after the last +1 button tag. -->
+    <script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<!-- googleplus sharingcode end -->
+    <!-- twitter sharincode start -->
+    <a href="https://twitter.com/share" class="twitter-share-button" data-size="large">Tweet</a> 
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	
+If you feel this website is useful for you, please don't forget to inform others 
+so now you can like and share Facebook or Googleplus and twitter
+<!-- Place this tag in your head or just before your close body tag. -->
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+<!-- Place this tag where you want the widget to render. -->
+<div class="g-page" data-href="https://plus.google.com/b/112539169038967720169/" data-theme="dark" data-layout="landscape" data-rel="publisher"></div>
+
+<!-- Facebook Badge START --> 
+		<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+		
+<div class="fb-page" 
+  data-href="https://www.facebook.com/Ernakulam-news-214408062504962/"
+  data-width="380" 
+  data-hide-cover="false"
+  data-show-facepile="false"></div>
+		<!-- Facebook Badge END -->
+
+  </p>
+		  
+		
+		  
+		  
+		
+          </body>
+    </html>
