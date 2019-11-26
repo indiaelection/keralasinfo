@@ -177,8 +177,6 @@ http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url><loc>https://www.keralas.info/tourism/</loc></url>
 <url><loc>https://www.keralas.info/tourism/pilgrimage/masjidh/sharemubarak/share_mubarak_grand_masjid.htm</loc></url>
 <url><loc>https://www.keralas.info/tourism/kerala/rural_life/</loc></url>
-<url><loc>https://keralas.info/tourism/arun/</loc></url>
-<url><loc>https://www.keralas.info/festival/</loc></url>
 <url><loc>https://www.keralas.info/festival/onam/2011/nehru_trophy_boat_race_2011.htm</loc></url>
 <url><loc>https://www.keralas.info/festival/onam/2011/onam_2011_date.htm</loc></url>
 <url><loc>https://www.keralas.info/worship_place//</loc></url>
@@ -255,5 +253,7 @@ http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url><loc>https://keralas.info/tourism/arun/country/india/kerala/flag-off-ceremony/</loc></url>
 <url><loc>https://keralas.info/tourism/arun/country/india/manipur/imphal_city/</loc></url>
 <url><loc>https://keralas.info/tourism/arun/country/india/manipur/moreh_border/</loc></url>
+<url><loc>https://keralas.info/tourism/arun/country/myanmar/tamu-myanmar/</loc></url>
+<url><loc>https://keralas.info/tourism/arun/</loc></url>
 
 </urlset>
