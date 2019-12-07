@@ -118,8 +118,8 @@ http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url><loc>https://www.keralas.info/exams/sslc/2017/</loc></url>
 
 <url><loc>https://www.keralas.info/exams/sslc/2019/</loc></url>
-<url><loc>http://keralas.info/exams/sslc/2019/results/</loc></url>
-<url><loc>http://keralas.info/exams/sslc/2019/results/results_website_list.html</loc></url>
+<url><loc>https://indiaelection.github.io/keralasinfo/exams/sslc/2019/results/</loc></url>
+<url><loc>https://indiaelection.github.io/keralasinfo/exams/sslc/2019/results/results_website_list.html</loc></url>
 
 
 <url><loc>https://www.keralas.info/exams/plus2/2017/</loc></url>
