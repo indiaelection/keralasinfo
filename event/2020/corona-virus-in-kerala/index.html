@@ -91,16 +91,8 @@
 
       <!-- Page 2 (Dog): 2 layers (fill + thirds) -->
       <amp-story-page id="page2">
-        <amp-story-grid-layer template="fill">
-          <amp-img src="assets/dog.jpg" 
-              width="720" height="1280"
-              layout="responsive">
-          </amp-img>
-        </amp-story-grid-layer>
-          <amp-story-grid-layer template="thirds">
-            <h1 grid-area="upper-third">Dogs</h1>
-		  
-		  
+	      
+	      
 	<div id="barchart"></div>
 
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -133,7 +125,23 @@ function drawChart() {
   var chart = new google.visualization.BarChart(document.getElementById('barchart'));
   chart.draw(data, options);
 }
-</script>	  
+</script>      
+	      
+	      
+	      
+	      
+	      
+        <amp-story-grid-layer template="fill">
+          <amp-img src="assets/dog.jpg" 
+              width="720" height="1280"
+              layout="responsive">
+          </amp-img>
+        </amp-story-grid-layer>
+          <amp-story-grid-layer template="thirds">
+            <h1 grid-area="upper-third">Dogs</h1>
+		  
+		  
+		  
 		  
 		  
 		  
