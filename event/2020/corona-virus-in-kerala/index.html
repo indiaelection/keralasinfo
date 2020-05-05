@@ -23,7 +23,7 @@ MM_reloadPage(true);
     <script async custom-element="amp-story"
         src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
 	<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400" rel="stylesheet">
 	  
     <style amp-custom>
       amp-story {
@@ -71,6 +71,30 @@ MM_reloadPage(true);
     </style>
   </head>
   <body>
+  
+<amp-analytics type="gtag" data-credentials="include">
+      <script type="application/json">
+        {
+          "vars": {
+            "gtag_id": "UA-17412770-63",
+            "config": {
+              "UA-17412770-63": { "groups": "default" }
+            }
+          },
+          "triggers": {
+            "button": {
+              "selector": "#the-button",
+              "on": "click",
+              "vars": {
+                "event_name": "login",
+                "method": "Google"
+              }
+            }
+          }
+        }
+      </script>
+    </amp-analytics>  
+  
     <!-- Cover page -->
     <amp-story standalone
         title="kerala corona graph 2020 കൊറോണ കോവിഡ്"
@@ -86,6 +110,16 @@ background-audio="http://www.oneworld.website/event/2020/corona-virus-in-kerala/
               layout="responsive">
           </amp-img>
         </amp-story-grid-layer>
+		
+		<amp-story-grid-layer template="thirds"> 
+<h2 animate-in="fly-in-bottom"
+      grid-area="middle-third"
+      animate-in-delay="1.4s"
+	animate-in-duration="9s"
+ style="color: #00FF00";>Active case: 37 <br> Total Confirmed 502 Recovered : 462 Death: 3
+      </h2>
+  </amp-story-grid-layer> 
+	
         <amp-story-grid-layer template="vertical">
           <h1>Kerala corona graph</h1>
           <p>The first case of 2019-2020 coronavirus pandemic in India was confirmed in the state of Kerala, on 30 January 2020</p>
@@ -104,9 +138,31 @@ background-audio="http://www.oneworld.website/event/2020/corona-virus-in-kerala/
 			  <p></p>
 			 <p></p>
 			
-				<h2 style="font-size: 30px; color: #FF7F50;">04.05.2020 Monday</h2>
-</amp-story-grid-layer> 
+				<h2 style="font-size: 30px; color: #FF7F50;">05.05.2020 Tuesday</h2>
+				
+			</amp-story-grid-layer> 
 </amp-story-page> 
+
+<amp-story-page id="05.05.2020"> 
+
+ <amp-story-grid-layer template="fill">
+	          <amp-img src="https://indiaelection.github.io/keralasinfo/event/2020/corona-virus-in-kerala/kerala-corona-graph-05-05-2020-tuesday.jpg"
+    
+              layout="responsive">
+          </amp-img>
+        </amp-story-grid-layer> 
+
+<amp-story-grid-layer template="thirds"> 
+<h2 animate-in="fly-in-bottom"
+      grid-area="upper-third"
+      animate-in-delay="1.4s"
+	animate-in-duration="9s"
+ style="color: #00FF00";>05.05.2020 Tuesday KOVID19 <br> Active case: 3 Recovered Today: 0
+      </h2>
+  </amp-story-grid-layer> 
+
+ </amp-story-page>
+
 
 <amp-story-page id="04.05.2020"> 
 
@@ -122,13 +178,13 @@ background-audio="http://www.oneworld.website/event/2020/corona-virus-in-kerala/
       grid-area="upper-third"
       animate-in-delay="1.4s"
 	animate-in-duration="9s"
- style="color: #00FF00";>04.05.2020 Friday KOVID19 <br> Active case: 0 Recovered Today: 9
+ style="color: #00FF00";>04.05.2020 Friday KOVID19 <br> Active case: 0 Recovered Today: 67
       </h2>
   </amp-story-grid-layer> 
 
  </amp-story-page>
  
- <amp-story-page id="04.05.2020"> 
+ <amp-story-page id="03.05.2020"> 
 
  <amp-story-grid-layer template="fill">
 	          <amp-img src="https://indiaelection.github.io/keralasinfo/event/2020/corona-virus-in-kerala/kerala-corona-graph-03-05-2020-sunday.jpg"
@@ -142,7 +198,7 @@ background-audio="http://www.oneworld.website/event/2020/corona-virus-in-kerala/
       grid-area="upper-third"
       animate-in-delay="1.4s"
 	animate-in-duration="9s"
- style="color: #00FF00";>03.05.2020 Friday KOVID19 <br> Active case: 0 Recovered Today: 9
+ style="color: #00FF00";>03.05.2020 Friday KOVID19 <br> Active case: 0 Recovered Today: 1
       </h2>
   </amp-story-grid-layer> 
 
