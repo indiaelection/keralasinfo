@@ -62,39 +62,19 @@
   </head>
   <body>
   
-<amp-analytics type="gtag" data-credentials="include">
-      <script type="application/json">
-        {
-          "vars": {
-            "gtag_id": "UA-17412770-63",
-            "config": {
-              "UA-17412770-63": { "groups": "default" }
-            }
-          },
-          "triggers": {
-            "button": {
-              "selector": "#the-button",
-              "on": "click",
-              "vars": {
-                "event_name": "login",
-                "method": "Google"
-              }
-            }
-          }
-        }
-      </script>
-    </amp-analytics>  
-  
-    <!-- Cover page -->
-    <amp-story standalone
+
+   
+  <!-- Cover page -->
+        <amp-story standalone
+	    supports-landscape
         title="lightning meaning in malayalam മിന്നൽ അഥവാ ഇടിമിന്നൽ"
         publisher="Oneworld.website"
         publisher-logo-src="http://oneworld.website/oneworld.website-fevicon.png"
         poster-portrait-src="http://www.oneworld.website/event/2020/corona-virus-in-kerala/kerala-corona-graph-2020.jpg"
 background-audio="http://www.oneworld.website/event/2020/corona-virus-in-kerala/kerala-corona-graph-2020-song.mp3"> 
-      <amp-story-page id="cover">
-	
-        <amp-story-grid-layer template="fill">
+      <!-- Cover page -->
+	  <amp-story-page id="cover">
+	  <amp-story-grid-layer template="fill">
 	          <amp-img src="https://indiaelection.github.io/keralasinfo/event/2018/kerala_flood_2018_videos/lightning-meaning-in-malayalam-1.jpg"
     width="720" height="1280"
               layout="responsive">
@@ -149,7 +129,6 @@ background-audio="http://www.oneworld.website/event/2020/corona-virus-in-kerala/
 
  </amp-story-page>
 
-
 <amp-story-page id="page2"> 
 <amp-story-grid-layer template="vertical">
   <p>കേരളത്തിൽ ഇപ്പോൾ ലഭിക്കുന്ന മഴയോടനുബന്ധിച്ച് ഉച്ചക്ക് 2 മണി മുതൽ രാത്രി 10 മണിവരെയുള്ള
@@ -187,8 +166,8 @@ background-audio="http://www.oneworld.website/event/2020/corona-virus-in-kerala/
 
   </amp-story-grid-layer>
       </amp-story-page> 
-  
- <amp-story-page id="page4"> 
+
+<amp-story-page id="page4"> 
 <amp-story-grid-layer template="vertical">  
   <h2>പൊതു നിര്‍ദേശങ്ങള്‍</h2>
   <ul> 
@@ -209,7 +188,8 @@ background-audio="http://www.oneworld.website/event/2020/corona-virus-in-kerala/
   <p> വളര്‍ത്തു മൃഗങ്ങളെ തുറസായ സ്ഥലത്ത് ഈ സമയത്ത് കെട്ടരുത്. അവയെ അഴിക്കുവാനും സുരക്ഷിതമായി മാറ്റി കെട്ടുവാനും മഴ മേഘം കാണുമ്പോള്‍ തുറസായ സ്ഥലത്തെക്ക് പോകരുത്</p> 
   </amp-story-grid-layer>
       </amp-story-page>
- <amp-story-page id="page5"> 
+
+<amp-story-page id="page5"> 
 <amp-story-grid-layer template="vertical">  
   <h2>പൊതു നിര്‍ദേശങ്ങള്‍</h2>
   <ul> 
@@ -222,8 +202,10 @@ background-audio="http://www.oneworld.website/event/2020/corona-virus-in-kerala/
   <p> വളര്‍ത്തു മൃഗങ്ങളെ തുറസായ സ്ഥലത്ത് ഈ സമയത്ത് കെട്ടരുത്. അവയെ അഴിക്കുവാനും സുരക്ഷിതമായി മാറ്റി കെട്ടുവാനും മഴ മേഘം കാണുമ്പോള്‍ തുറസായ സ്ഥലത്തെക്ക് പോകരുത്</p> 
   </amp-story-grid-layer>
       </amp-story-page>
-	  
-<!-- Bookend -->
+
+     
+
+   <!-- Bookend -->
       <amp-story-bookend src="bookend.json" layout="nodisplay"></amp-story-bookend>
     </amp-story>
   </body>
