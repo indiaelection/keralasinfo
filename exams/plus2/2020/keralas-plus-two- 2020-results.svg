@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2400"
+   height="1260"
+   viewBox="0 0 2400 1260"
+   id="svg4187"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="PLUS TWO Result 2020 monitor.svg">
+  <title
+     id="title4735">Plus Two result monitor</title>
+  <defs
+     id="defs4189">
+    <style
+       id="style4741"
+       type="text/css">.fil1 {fill:black} .fil3 {fill:#333333} .fil6 {fill:url(#f)} .fil2 {fill:url(#g)} .fil4 {fill:url(#h)} .fil5 {fill:url(#i)} .fil0 {fill:url(#j)}</style>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="16516"
+       y1="16516"
+       x2="13406"
+       x1="11289"
+       id="f">
+      <stop
+         id="stop4744"
+         offset="0" />
+      <stop
+         id="stop4746"
+         offset=".47059"
+         stop-color="#212121" />
+      <stop
+         id="stop4748"
+         offset="1"
+         stop-color="#080808" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="2377.9"
+       y1="13013"
+       x2="25250"
+       x1="9056.2"
+       id="g">
+      <stop
+         id="stop4751"
+         offset="0"
+         stop-color="#333131" />
+      <stop
+         id="stop4753"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="13788"
+       y1="703.29"
+       x2="12348"
+       x1="12348"
+       id="h">
+      <stop
+         id="stop4756"
+         offset="0"
+         stop-color="#5C5C5C" />
+      <stop
+         id="stop4758"
+         offset=".5098"
+         stop-color="#2E2E2E" />
+      <stop
+         id="stop4760"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="15399"
+       y1="14550"
+       x2="12348"
+       x1="12348"
+       id="i">
+      <stop
+         id="stop4763"
+         offset="0" />
+      <stop
+         id="stop4765"
+         offset=".45882"
+         stop-color="#141313" />
+      <stop
+         id="stop4767"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="16984"
+       y1="18754"
+       x2="12348"
+       x1="12348"
+       id="j">
+      <stop
+         id="stop4770"
+         offset="0"
+         stop-color="#A8A8A8" />
+      <stop
+         id="stop4772"
+         offset="1" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.26442877"
+     inkscape:cx="1252.7499"
+     inkscape:cy="652.63632"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1366"
+     inkscape:window-height="693"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4192">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Plus Two result monitor</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,207.63786)">
+    <g
+       style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+       id="g4815"
+       transform="matrix(0.06624746,0,0,0.06624746,407.19286,-198.75544)">
+      <path
+         id="path4774"
+         d="m 7340,16985 10016,0 411,1494 0,275 -10838,0 0,-267 411,-1502 z"
+         class="fil0"
+         inkscape:connector-curvature="0"
+         style="fill:url(#j)" />
+      <polygon
+         id="polygon4776"
+         points="6929,18754 6929,18487 17767,18487 17767,18754 "
+         class="fil1"
+         style="fill:#000000" />
+      <polygon
+         id="polygon4778"
+         points="13406,17636 11289,17636 11289,14232 13406,14232 "
+         class="fil1"
+         style="fill:#000000" />
+      <path
+         id="path4780"
+         d="m 608,0 23480,0 c 334,0 608,273 608,608 l 0,13993 c 0,334 -274,596 -608,608 -7827,275 -15654,231 -23480,0 C 274,15199 0,14935 0,14601 L 0,608 C 0,273 273,0 608,0 Z"
+         class="fil1"
+         inkscape:connector-curvature="0"
+         style="fill:#000000" />
+      <path
+         id="path4782"
+         d="M 15165,15391 C 11789,12693 9610,8433 9610,3638 9610,2383 9760,1164 10041,0 l 14047,0 c 334,0 608,273 608,608 l 0,13993 c 0,334 -274,596 -608,608 -2974,104 -5949,163 -8923,182 z"
+         class="fil2"
+         inkscape:connector-curvature="0"
+         style="fill:url(#g)" />
+      <path
+         id="path4784"
+         d="m 814,676 23068,0 c 57,0 104,47 104,105 l 0,12929 c 0,58 -47,105 -104,105 l -23068,0 c -57,0 -104,-47 -104,-105 L 710,781 c 0,-58 47,-105 104,-105 z"
+         class="fil3"
+         inkscape:connector-curvature="0"
+         style="fill:#333333" />
+      <path
+         id="path4786"
+         d="m 814,703 c -43,0 -78,35 -78,78 l 0,12929 c 0,43 35,78 78,78 l 23068,0 c 42,0 77,-35 77,-78 l 0,-12929 c 0,-43 -35,-78 -77,-78 L 814,703 Z"
+         class="fil4"
+         inkscape:connector-curvature="0"
+         style="fill:url(#h)" />
+      <path
+         id="path4788"
+         d="m 12348,14549 c 4569,0 8803,123 12277,333 -102,190 -305,318 -537,327 -7827,275 -15654,231 -23480,0 -233,-7 -436,-137 -538,-327 3475,-210 7709,-333 12278,-333 z"
+         class="fil5"
+         inkscape:connector-curvature="0"
+         style="fill:url(#i)" />
+      <path
+         id="path4790"
+         d="m 13406,15398 0,2238 -2117,0 0,-2241 33,1 232,0 33,1 99,0 240,1 455,0 c 100,1 201,1 302,1 l 459,0 c 88,0 176,-1 264,-1 z"
+         class="fil6"
+         inkscape:connector-curvature="0"
+         style="fill:url(#f)" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="492.13354"
+       y="277.10608"
+       id="text4826"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4828"
+         x="492.13354"
+         y="277.10608"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:150px;font-family:Uroob;-inkscape-font-specification:'Uroob Bold';fill:#ffff00">Kerala Plus two Results 2020</tspan></text>
+  </g>
+</svg>
